@@ -81,3 +81,11 @@ Was für Scope Annotations gibt es?
 * @SessionScoped  
 * @ApplicationScoped  
 * @ConversationScoped
+
+
+welche Services bietet CDI an?
+* verbesserter Lebenszyklus für stateful Objekte die an definierte Kontexte gebunden sind.  
+* Typen sichere Dependency Injection 
+* Objekt Interaktion via Event Notification Facillity 
+* Ein verbesserter Ansatz um Interceptoren an Objekte zu binden. Verwendet wird ein neuer Interceptor, genannt Decorator um neuen Business Anforderungen zu genügen.  
+* SPI um portierbare Extensions fuer den Kunden zu entwickeln.
